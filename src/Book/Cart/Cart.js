@@ -24,7 +24,7 @@ const Cart = (props) => {
       <Card style={{ width: "18rem" }}>
         <Card.Body>
           <Card.Title>
-            <h3 className="mb-2">Added BookList</h3>
+            <h3 className="mb-2">BookList</h3>
             <div id="showData" className="row">
               <div className=" col ">
                 {cart.map((partbook) => (
